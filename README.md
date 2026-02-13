@@ -1,10 +1,10 @@
-Secure API Key Manager
+#Secure API Key Manager
 
 This project is a backend system that allows users to securely generate and manage API keys.
 
 It demonstrates how real-world systems handle authentication and protect access to sensitive endpoints.
 
-What It Does
+#What It Does
 
 Users log in using JWT authentication.
 
@@ -16,7 +16,7 @@ Protected endpoints can only be accessed using a valid API key.
 
 Expired or revoked keys are automatically blocked.
 
-How It Works
+#How It Works
 
 A user logs in and receives a JWT access token.
 
@@ -28,7 +28,7 @@ To access protected data, the client must send the API key in the request header
 
 The system verifies the key and grants or denies access.
 
-Security Features
+#Security Features
 
 Cryptographically secure key generation
 
@@ -40,7 +40,7 @@ Expiration handling
 
 Revocation-ready structure
 
-Technologies Used
+#Technologies Used
 
 Python
 
@@ -50,6 +50,6 @@ Django REST Framework
 
 Simple JWT
 
-Purpose
+#Purpose
 
 This project demonstrates backend development aligned with security principles, including authentication separation, secure key storage, and controlled access to APIs.
